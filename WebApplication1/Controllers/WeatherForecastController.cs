@@ -42,6 +42,7 @@ namespace WebApplication1.Controllers
                 Console.WriteLine(newUser.Address == null);
             }
 
+            //this will be false as newUser's Address property got automatically populated 
             return Ok(newUser.Address == null);
         }
     }
